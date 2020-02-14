@@ -19,3 +19,6 @@ docker image build -t my-company/my-app:latest .
 
 # Run the example image
 docker run -d --name my-app -p 7199:7199 -p 8080:8080 my-company/my-app:latest
+
+# Hosted on Dockerhub
+docker pull jaycdave88/ddtracejava
